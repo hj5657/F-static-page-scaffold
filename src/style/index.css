@@ -5,8 +5,9 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +18,52 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.register-btn {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 30px;
+  margin: 2px 0 0 10px;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  font-size: 42px;
+}
+.header-left {
+  display: flex;
+  margin: 20px 50px 20px 200px;
+  align-items: center;
+}
+.header-right {
+  margin-right: 205px;
+}
+.content-top-header {
+  margin: 30px 200px;
+}
+.content-top-img {
+  display: flex;
+  align-items: center;
+  margin-left: 160px;
+}
+.content-top-section {
+  background-color: white;
+  width: 430px;
+  height: 450px;
+  padding: 20px;
+  text-align: center;
+}
+.content-top-btn {
+  margin-top: 50px;
 }
